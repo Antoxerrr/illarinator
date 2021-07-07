@@ -16,16 +16,16 @@ body {
 
 .content-center {
     width: 100%;
+    height: 95vh;
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 10;
-    margin-top: 15%;
 }
 
 #generate-button {
+    width: 240px;
+    height: 50px;
     text-shadow: black 0 0 1px;
     font-size: 15px;
     font-weight: bold;
@@ -63,4 +63,9 @@ body {
     font-size: 40px;
     text-align: center;
     margin-top: 81vh;
+}
+
+.loading {
+    letter-spacing: 7px;
+    background: #ff11b4 !important;
 }
