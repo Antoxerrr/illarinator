@@ -17,10 +17,12 @@ body {
 .content-center {
     width: 100%;
     display: flex;
+    position: fixed;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    flex: 8;
+    flex-direction: column;
+    flex: 10;
+    margin-top: 15%;
 }
 
 #generate-button {
@@ -41,26 +43,24 @@ body {
 }
 
 #text-holder {
-    font-size: 45px;
+    font-size: 30px;
+    min-height: 40px;
 }
 
 .header {
-    flex: 1;
     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    position: fixed;
     font-size: 15px;
+    text-align: center;
 }
 
 .footer {
-    flex: .5;
     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    position: fixed;
     font-family: 'Qahiri', sans-serif;
     font-size: 40px;
+    text-align: center;
+    margin-top: 81vh;
 }
