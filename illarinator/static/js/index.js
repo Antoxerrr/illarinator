@@ -18,7 +18,7 @@ function startLoadingAnimation() {
     generateButton.disabled = true;
     generateButton.innerText = '';
     generateButton.classList.add('loading');
-    animationID = setInterval(buttonLoadingDots, 250);
+    animationID = setInterval(buttonLoadingDots, 100);
 }
 
 function endLoadingAnimation() {
