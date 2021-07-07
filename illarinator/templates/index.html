@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Jopa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+<div class="sheet">
+    <div class="header">Генератор кликух для илларионыча</div>
+    <div class="content-center">
+        <p id="text-holder"></p>
+        <button id="generate-button">Замутить кликуху</button>
+    </div>
+    <div class="footer"><p>ILLARINATOR</p></div>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
